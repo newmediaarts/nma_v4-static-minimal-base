@@ -1,6 +1,8 @@
 # NMA Static Site Generated via Eleventy 
 A static version of the NMA site, geberated using 11ty.
 
+[View Demo on Netlify](https://nma-v4-static-minimal.netlify.app/)
+
 ## Goals/Constraints:
 * no npm (no package.json, no node modules, no npm install, etc)
 * minimal config (easy to understand and get up and running right out of the box)
