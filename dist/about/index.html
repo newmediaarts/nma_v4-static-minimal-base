@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Site Name | About Us</title>
+    <title>New Media Arts | About Us</title>
     <meta name="description"
         content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,7 +17,12 @@
 
 <header class="site-header">
     <h1 class="site-id">
-        <a href="../index.html">Site Name</a>
+        <span class="kcclogo">
+            <a href="https://www.kapiolani.hawaii.edu/">KCC</a>
+        </span>
+        <span class="nmalogo">
+            <a href="../index.html">NMA</a>
+        </span>
     </h1>
     <nav class="site-navigation">
         <ul>
@@ -33,20 +38,63 @@
 
 <main class="site-main">
 
-    <h1>About Us</h1>
-    <section>
-        <p>This is a sub page test.</p>
-        <h2>Notes:</h2>
-        <ul>
-            <li>This .html file has front matter (title)</li>
-            <li>This .html file has liquid includes (e.g. head and foot)</li>
-        </ul>
-    </section>
+<section class="nma-hero">
+
+    <div class="nma-container">
+
+        <h1 class="nma-runninghead">About Us</h1>
+        <h2 class="nma-display-large">What is NMA?</h2>
+        <h3>Animation &amp; Interface Design</h3>
+        <p>The New Media Arts (NMA) program is a two year AS degree program located at Kapi‘olani Community College (KCC) in Honolulu, Hawaii. The NMA mission is to prepare students for employment in the fields of interface design and animation.</p>
+
+        <a href="" class="nma-button">Meet the NMA Faculty</a>
+        <a href="" class="nma-button">Read About NMA Graduates</a>
+        
+    </div>
+
+</section>
 
 </main>
 
 <footer class="site-footer">
-    <nav class="site-navigation">
+    <div class="nma-container">
+        <div class="nma-row one-third">
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <h2>About KCC NMA</h2>
+                    <p>The New Media Arts (NMA) program is a two year AS degree program at Kapi‘olani Community College (KapCC) in Honolulu, Hawaii. Our mission is to prepare students for employment in the fields of interface design and animation.</p>
+                    <a href="#" class="nma-button">Apply Now</a>
+                </div>
+            </div>
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <h2>Location</h2>
+                    <address>Kapiolani Community College<br />
+                        4303 Diamond Head Road<br />
+                        Honolulu, HI 96813</address>
+                </div>
+                <div class="nma-widget">
+                    <h2>Contact Info</h2>
+                    <h3>Steve Harris</h3>
+                    <h4>NMA Counselor</h4>
+                    <p>
+                        Telephone: (808) 734-9510<br />
+                        Email: snharris [at] hawaii.edu
+                    </p>
+                    <a href="#" class="nma-button">Contact Steve</a>
+                </div>
+            </div>
+            <div class="nma-column">
+                <div class="nma-widget">
+                    <h2>Related Links</h2>
+                    <nav class="site-navigation">
+                        <ul>
+                            <li><a href="https://www.hawaii.edu/">University of Hawaii</a></li>
+                            <li><a href="https://www.kapiolani.hawaii.edu/">Kapi‘olani Community College</a></li>
+                        </ul>
+                    </nav>
+                    <h2>NMA Program Pages</h2>
+                    <nav class="site-navigation">
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../about/index.html">About</a>
@@ -56,6 +104,10 @@
             </li>
         </ul>
     </nav>
+                </div>
+            </div>    
+        </div>    
+    </div>
 </footer>
 
 

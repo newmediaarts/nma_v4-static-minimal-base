@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Site Name | {{ title }}</title>
+    <title>New Media Arts | {{ title }}</title>
     <meta name="description"
         content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +16,12 @@
 
 <header class="site-header">
     <h1 class="site-id">
-        <a href="{{ relBase }}index.html">Site Name</a>
+        <span class="kcclogo">
+            <a href="https://www.kapiolani.hawaii.edu/">KCC</a>
+        </span>
+        <span class="nmalogo">
+            <a href="{{ relBase }}index.html">NMA</a>
+        </span>
     </h1>
     {% include _site-navigation.html %}
 </header>

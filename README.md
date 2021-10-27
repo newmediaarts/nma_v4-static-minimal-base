@@ -4,7 +4,6 @@ A static version of the NMA site, geberated using 11ty.
 [View Demo on Netlify](https://nma-v4-static-minimal.netlify.app/)
 
 ## Goals/Constraints:
-* no npm (no package.json, no node modules, no npm install, etc)
 * minimal config (easy to understand and get up and running right out of the box)
 * support for relative paths (e.g. able to be staticly hosted in a sub-directory)
 * Other key features:
@@ -12,11 +11,11 @@ A static version of the NMA site, geberated using 11ty.
     * html files with mixed front matter + markup (thank you eleventy)
 
 ## To serve locally
-If you have eleventy installed:
 
+``` npm install ```
 ``` eleventy --serve ```
 
-If you do not have eleventy installed but you have npx:
+or:
 
 ``` npx @11ty/eleventy --serve ```
 
