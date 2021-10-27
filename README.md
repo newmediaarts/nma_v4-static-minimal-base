@@ -10,9 +10,12 @@ A static version of the NMA site, geberated using 11ty.
     * html includes (thank you eleventy/nunjucks/liquid)
     * html files with mixed front matter + markup (thank you eleventy)
 
-## To serve locally
+## To install, setup, & serve locally
 
 ``` npm install ```
+
+then:
+
 ``` eleventy --serve ```
 
 or:
