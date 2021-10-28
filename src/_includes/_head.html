@@ -9,11 +9,14 @@
         content="11ty Test1: a minimalistic HTML + CSS + JS 11ty setup for simple web site projects." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/imp2bsl.css">
+
     <link href="{{ relBase }}css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-
+<a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">Skip to content</a>
 <header class="site-header">
     <h1 class="site-id">
         <span class="kcclogo">
@@ -26,4 +29,4 @@
     {% include _site-navigation.html %}
 </header>
 
-<main class="site-main">
+<main id="content" class="site-main">
