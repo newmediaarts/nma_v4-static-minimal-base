@@ -6,6 +6,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/img');
     eleventyConfig.addPassthroughCopy('src/video');
 
+    eleventyConfig.setLiquidOptions({
+        dynamicPartials: false,
+        strictFilters: false, // renamed from `strict_filters` in Eleventy 1.0
+      });
+
     return {
         dir: {
             input: 'src',

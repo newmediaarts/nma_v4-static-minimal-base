@@ -12,11 +12,7 @@ A static version of the NMA site, geberated using 11ty.
 
 ## To install, setup, & serve locally
 
-``` npm install ```
-
-then:
-
-``` eleventy --serve ```
+``` npm start ```
 
 or:
 
